@@ -1,0 +1,13 @@
+[package]
+name = "rscode"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["libs/rscode-*"]
+
+[dependencies]
+wgpu = { version = "0.20.0" }
+winit = { version = "0.30.4" }
+pollster = { version = "0.3" }
+glyphon = { version = "0.5.0" }
